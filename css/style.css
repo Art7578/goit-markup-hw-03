@@ -1,0 +1,332 @@
+:root{
+    --primary-color:#757575;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: var(--primary-color);
+    background-color: #FFFFFF;
+    letter-spacing: 0.03em;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.link{
+    text-decoration: none;
+}
+.list .link.current{
+    color: #2196F3;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px solid #FFFFFF;
+}
+/* header */
+.header{
+    box-sizing: border-box;
+}
+.list-zero{
+    gap: 50px;
+    margin: 32px 344px 32px 93px;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+.list-one{
+    gap: 50px;
+}
+.web{
+    color: #2196F3;
+    font-family: Raleway, sans-serif;
+}
+.studio-link{
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.studio-link:active{
+    color: #2196F3;
+}
+.nav{
+    color: #212121;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav:active,
+.nav:hover,
+.nav:focus{
+    color: #2196F3;
+}
+.nav:current(){
+    color: #2196F3;
+}
+.nav-second{
+    color: #757575;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav-second:hover,
+.nav-second:focus{
+    color: #2196F3;
+}
+/* main */
+/* section1 */
+.section-one{
+    background-color: #2F303A;
+}
+.title{
+    width: 696px;
+    margin: 0px 252px;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button{
+    padding: 10px 32px;
+    margin-left: 492px;
+    margin-bottom: 200px;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    border-style: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/* section2 */
+.list-second{
+    width: 1170px;
+    padding-top: 94px;
+    gap: 30px;
+    margin-left: 15px;
+}
+.link-second{
+    width: 270px;
+}
+.feature{
+    padding-bottom: 10px;
+    margin: 0;
+    color: #212121;
+    font-size: 14px;
+    line-height: 1.14;
+    list-style: none;
+}
+.feature-text{
+    padding-bottom: 94px;
+    margin: 0;
+    line-height: 1.71;
+}
+/* section3 */
+.duty{
+    padding-bottom: 50px;
+    margin: 0;
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.list-images{
+    gap: 30px;
+}
+/* section4 */
+.section-four{
+    padding-bottom: 94px;
+    background: #F5F4FA
+}
+.list-four{
+    gap: 30px;
+}
+.pretty-first{
+    padding: 30px 70px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.pretty-second{
+    padding: 30px 62px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.pretty-third{
+    padding: 30px 70px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.pretty-four{
+    padding: 30px 62px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team{
+    padding-top: 94px;
+    padding-bottom: 50px;
+    margin: 0;
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center
+}
+.team-card{
+    margin: 0;
+    color: #212121;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center
+}
+.team-card-text{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+/* footer */
+.footer{
+    padding-top: 60px;
+    background-color: #2F303A;
+    box-sizing: border-box;
+}
+.address-zero{
+    margin-left: 15px;
+}
+.footer-list{
+    display: block;
+}
+.web-footer{
+    color: #2196F3
+}
+.studio-link-footer{
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.studio-link:active{
+    color: #2196F3
+}
+.address{
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+.town{
+    color: #FFFFFF;
+    font-style: normal;
+    line-height: 1.71;
+}
+.town:hover,
+.town:focus{
+    color: #2196F3;
+    
+}
+.nav-third{
+    color: #FFFFFFa5;
+    font-style: normal;
+    line-height: 1.71;
+}
+.nav-third:hover,
+.nav-third:focus{
+    color: #2196F3;
+}
+/* section5 */
+.button-secondary {
+    margin-left: 300px;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    width: 575px;
+    gap: 8px;
+}
+.button-list-main{
+    padding: 6px 25px;
+    margin: 0;
+    color: #212121;
+    background-color: #F5F4FA;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+    border-style: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;   
+}
+.button-list{
+    padding: 6px 22px;
+    margin: 0;
+    color: #212121;
+    background-color: #F5F4FA;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+    border-style: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.project{
+    margin: 0;
+    color: #212121;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-text{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.87;
+}
+.button-list:hover,
+.button-list:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.list-five{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 94px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.link-portfolio{
+    width: 370px;
+}
+.pretty{
+    padding: 20px 24px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
