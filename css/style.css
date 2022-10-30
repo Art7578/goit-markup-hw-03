@@ -26,20 +26,23 @@ body{
     color: #2196F3;
 }
 .container{
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
-    outline: 2px solid #FFFFFF;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 /* header */
 .header{
     box-sizing: border-box;
+    border: 1px solid #ECECEC;
 }
 .list-zero{
     gap: 50px;
-    margin: 32px 344px 32px 93px;
+    margin-left: 93px;
 }
 .main-nav{
+    margin-left: auto;
     display: flex;
     align-items: center;
 }
@@ -61,6 +64,9 @@ body{
     color: #2196F3;
 }
 .nav{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: #212121;
     font-weight: 500;
     line-height: 1.14;
@@ -88,12 +94,13 @@ body{
 /* section1 */
 .section-one{
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .title{
+    margin-left: auto;
+    margin-right: auto;
     width: 696px;
-    margin: 0px 252px;
-    padding-top: 200px;
-    padding-bottom: 30px;
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
@@ -103,9 +110,9 @@ body{
     text-transform: uppercase;
 }
 .button{
-    padding: 10px 32px;
-    margin-left: 492px;
-    margin-bottom: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     color: #FFFFFF;
     background-color: #2196F3;
     font-family: Roboto, sans-serif;
@@ -120,32 +127,33 @@ body{
     border-radius: 4px;
 }
 /* section2 */
-.list-second{
-    width: 1170px;
+.section-two{
     padding-top: 94px;
+    padding-bottom: 94px;
+}
+.list-second{
     gap: 30px;
-    margin-left: 15px;
 }
 .link-second{
     width: 270px;
 }
 .feature{
-    padding-bottom: 10px;
-    margin: 0;
+    margin-bottom: 10px;
     color: #212121;
     font-size: 14px;
     line-height: 1.14;
     list-style: none;
 }
 .feature-text{
-    padding-bottom: 94px;
     margin: 0;
     line-height: 1.71;
 }
 /* section3 */
+.section-three{
+    padding-bottom: 94px;
+}
 .duty{
-    padding-bottom: 50px;
-    margin: 0;
+    margin-bottom: 50px;
     color: #212121;
     font-weight: 700;
     font-size: 36px;
@@ -157,6 +165,7 @@ body{
 }
 /* section4 */
 .section-four{
+    padding-top: 94px;
     padding-bottom: 94px;
     background: #F5F4FA
 }
@@ -188,9 +197,7 @@ body{
     border-radius: 0px 0px 4px 4px;
 }
 .team{
-    padding-top: 94px;
-    padding-bottom: 50px;
-    margin: 0;
+    margin-bottom: 50px;
     color: #212121;
     font-weight: 700;
     font-size: 36px;
@@ -198,7 +205,7 @@ body{
     text-align: center
 }
 .team-card{
-    margin: 0;
+    margin-top: 30px;
     color: #212121;
     font-size: 16px;
     line-height: 1.18;
@@ -213,11 +220,14 @@ body{
 /* footer */
 .footer{
     padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #2F303A;
     box-sizing: border-box;
 }
 .address-zero{
-    margin-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
 }
 .footer-list{
     display: block;
@@ -236,7 +246,6 @@ body{
 }
 .address{
     margin-top: 20px;
-    padding-bottom: 60px;
 }
 .town{
     color: #FFFFFF;
@@ -249,6 +258,8 @@ body{
     
 }
 .nav-third{
+    margin-top: 9px;
+    margin-bottom: 9px;
     color: #FFFFFFa5;
     font-style: normal;
     line-height: 1.71;
@@ -258,11 +269,13 @@ body{
     color: #2196F3;
 }
 /* section5 */
-.button-secondary {
-    margin-left: 300px;
+.section-five{
     padding-top: 94px;
-    padding-bottom: 50px;
-    width: 575px;
+    padding-bottom: 94px;
+}
+.button-secondary {
+    margin-bottom: 50px;
+    justify-content: center;
     gap: 8px;
 }
 .button-list-main{
@@ -296,7 +309,7 @@ body{
     border-radius: 4px;
 }
 .project{
-    margin: 0;
+    margin-bottom: 4px;
     color: #212121;
     font-size: 18px;
     line-height: 2;
@@ -316,7 +329,6 @@ body{
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 94px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -326,7 +338,6 @@ body{
 }
 .pretty{
     padding: 20px 24px;
-    margin-bottom: 30px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
